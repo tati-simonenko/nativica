@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>a_app_list</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.fileupload.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- HELP -->
+    <div class="help-link"><a href=""></a></div>
+    <!-- .HELP -->
+    <!-- HEADER -->
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button> -->
+          <!-- Logo -->
+          <a class="navbar-brand navbar-brand-n" href="#"><img src="img/logo-n.png" alt=""></a>
+          <!-- .Logo -->
+        </div>
+        
+      </div>
+    </nav>
+    <!-- .HEADER -->
+
+    <!-- NAVIGATION -->
+    <div id="navigation" class="navigation">
+      <div class="container">
+        <a class="dashboard" href="">
+          <span class="bg-nav"></span>
+          <span class="item-nav">Dashboard</span>
+        </a>
+        
+        <a class="applications" href="">
+          <span class="bg-nav"></span>
+          <span class="item-nav">Applications</span>
+        </a>
+
+        <a class="template active" href="">
+          <span class="bg-nav"></span>
+          <span class="item-nav">Templates</span>
+        </a>
+        
+        <a class="reports" href="">
+          <span class="bg-nav"></span>
+          <span class="item-nav">Reports</span>
+        </a>
+
+      </div>
+      
+    </div>
+
+    <!-- .NAVIGATION -->
+
+    <!-- CONTENT -->
+    <div id="content">
+    <!-- Heading -->
+    <div class="heading-filter">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-8 col-xs-12">
+            <div class="selects form-inline">
+              <!-- Sort -->
+              <div class="sort">
+                <label>Categories:</label>
+                <select class="form-control">
+                  <option>Top apps</option>
+                  <option>Top apps</option>
+                  <option>Top apps</option>
+                </select>
+              </div>
+              <!-- Show -->
+              <div class="show">
+                <label>Sort by:</label>
+                <select class="form-control">
+                  <option>File size (small)</option>
+                  <option>File size (small)</option>
+                  <option>File size (small)</option>
+                </select>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12 text-right heading-filter__search">
+            <!-- Search form -->
+            <form class="search-form form-inline">
+              <input type="text" class="form-control" placeholder="Search">
+              <a href="" class="button-faq">FAQ<span class="bg-icon-faq"></span></a>
+            </form>
+            <!-- Pagination -->
+            <div class="pagination">
+              <a href=""><span class="madicon darrow-blue-left"></span></a> <span class="divider">|</span>
+              <a href=""><span class="madicon arrow-blue-left"></span></a> <span class="divider">|</span>
+              <a href="">2</a> <span class="divider">|</span>
+              <a href="">3</a> <span class="divider">|</span>
+              <a href="">4</a> <span class="divider">|</span>
+              <a href=""><span class="madicon arrow-blue-right"></span></a> <span class="divider">|</span>
+              <a href=""><span class="madicon darrow-blue-right"></span></a> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- .Heading -->
+    <!-- Group two -->
+    <div id="templates" class="templates-types">
+      <div class="container">
+        <div class="clearfix">
+          <div class="templates-sidebar">
+            <a href="" class="btn-bordered">Invoke</a>
+            <ul class="templates-types__list">
+              <li><a href=""><span class="bg-plus"></span>Application #1</a></li>
+              <li><a href=""><span class="bg-plus"></span>Application #2</a></li>
+              <li><a href=""><span class="bg-plus"></span>Application #3</a></li>
+              <li><a href=""><span class="bg-plus"></span>Application #4</a></li>
+            </ul>
+            <a href="" class="templates-types__link link-blue">Clear the list</a>
+          </div>
+          <div class="templates-list clearfix">
+
+            <!-- состояние один -->
+            <div class="template-type--item">
+              <div class="template-type--body">
+                <div class="template-item__top clearfix">
+                  <div class="template-top__name">Angry Curds</div>
+                  <div class="template-top__info">
+                    <span>3 MB</span>
+                    <span class="bg-hummer"></span>
+                    <span>1533</span>
+                  </div>
+                </div>
+                <div class="template-item__main">
+                  <div class="template-main__img">
+                    <a href="" class="template-main__img--link">
+                    <img src="" alt="">
+                      <!-- place for img -->
+                      <div class="template-type-hover"></div>
+                    </a>
+                    <a href="" class="link-blue">icon</a>
+                  </div>
+                  <div class="template-main__text text-muted">
+                    Enter your description here...
+                  </div>
+                  <div class="template-main__link--attach">
+                    <span class="bg-attach-b"></span>
+                    <input type="file" title="Attach screenshots" class="link-blue">
+                  </div>
+                </div>
+                <div class="template-main__buttons text-center">
+                  <a href="" class="btn btn-bordered-blue">Build app</a>
+                  <a href="" class="btn btn-blue">Publish</a>
+                  <a href="" class="btn btn-transparent"><span class="bg-delete"></span>Delete</a>
+                </div>
+              </div>
+            </div>
+            <!-- состояние один -->
+
+            <!-- состояние два -->
+            <div class="template-type--item">
+              <div class="template-type--body">
+                <div class="template-item__top clearfix">
+                  <div class="template-top__name">Angry Curds<span class="template-status template-status--half"></span></div>
+                  <div class="template-top__info">
+                    <span>3 MB</span>
+                    <span class="bg-hummer"></span>
+                    <span>1533</span>
+                  </div>
+                </div>
+                <div class="template-item__main">
+                  <div class="template-main__img">
+                    <a href="" class="template-main__img--link">
+                      <img src="img/template-img.png" alt="">
+                      <div class="template-type-hover"></div>
+                    </a>
+                    <a href="" class="link-blue">icon</a>
+                  </div>
+                  <div class="template-main__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui natus quisquam recusandae accusantium quibusdam, maxime, voluptates dolor iure. 
+                  </div>
+                  <div class="template-main__link--attach">
+                    <span class="bg-attach-w"></span>
+                    <span class="text-muted">screen-1.png</span>
+                    <span class="bg-close"></span>
+                  </div>
+                </div>
+                <div class="template-main__buttons text-center">
+                  <a href="" class="btn btn-bordered-blue">Build app</a>
+                  <a href="" class="btn btn-blue">Update</a>
+                  <a href="" class="btn btn-transparent"><span class="bg-delete"></span>Delete</a>
+                </div>
+              </div>
+            </div>
+            <!-- состояние два -->
+
+            <!-- состояние три -->
+            <div class="template-type--item">
+              <div class="template-type--body">
+                <div class="template-item__top clearfix">
+                  <div class="template-top__name">Angry Curds<span class="template-status template-status--ready"></span></div>
+                  <div class="template-top__info">
+                    <span>3 MB</span>
+                    <span class="bg-hummer"></span>
+                    <span>1533</span>
+                  </div>
+                </div>
+                <div class="template-item__main">
+                  <div class="template-main__img">
+                    <a href="" class="template-main__img--link">
+                      <img src="img/template-img.png" alt="">
+                      <div class="template-type-hover"></div>
+                    </a>
+                    <a href="" class="link-blue">icon</a>
+                  </div>
+                  <div class="template-main__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui natus quisquam recusandae accusantium quibusdam, maxime, voluptates dolor iure. 
+                  </div>
+                  <div class="template-main__link--attach">
+                    <span class="bg-attach-w"></span>
+                    <span class="text-muted">screen-1.png</span>
+                    <span class="bg-close"></span>
+                  </div>
+                </div>
+                <div class="template-main__buttons text-center">
+                  <a href="" class="btn btn-bordered-blue">Build app</a>
+                  <a href="" class="btn btn-transparent"><span class="bg-views"></span>1544</a>
+                  <a href="" class="btn btn-transparent"><span class="bg-delete"></span>Delete</a>
+                </div>
+              </div>
+            </div>
+           <!-- состояние три -->
+
+           <!-- состояние четыре -->
+            <div class="template-type--item">
+              <div class="template-type--body">
+                <div class="template-item__top clearfix">
+                  <div class="template-top__name">Angry Curds<span class="template-status template-status--error"></span></div>
+                  <div class="template-top__info">
+                    <span>3 MB</span>
+                    <span class="bg-hummer"></span>
+                    <span>1533</span>
+                  </div>
+                </div>
+                <div class="template-item__main">
+                  <div class="template-main__img">
+                    <a href="" class="template-main__img--link">
+                      <img src="img/template-img.png" alt="">
+                      <div class="template-type-hover"></div>
+                    </a>
+                    <a href="" class="link-blue">icon</a>
+                  </div>
+                  <div class="template-main__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui natus quisquam recusandae accusantium quibusdam, maxime, voluptates dolor iure. 
+                  </div>
+                  <div class="template-main__link--attach">
+                    <span class="bg-attach-w"></span>
+                    <span class="text-muted">screen-1.png</span>
+                    <span class="bg-close"></span>
+                  </div>
+                </div>
+                <div class="template-main__buttons text-center">
+                  <a href="" class="btn btn-bordered-blue">Build app</a>
+                  <a href="" class="btn btn-blue">Publish</a>
+                  <a href="" class="btn btn-transparent"><span class="bg-delete"></span>Delete</a>
+                </div>
+              </div>
+            </div>
+            <!-- состояние четыре -->
+          </div>
+
+
+        </div>
+       
+      </div>
+    </div>
+    <!-- .Group two -->
+    </div>
+    <!-- .CONTENT -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- JS Placeholder -->
+    <!-- JS Placeholder -->
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.placeholder.js"></script>
+    <!-- The basic File Upload plugin -->
+    <script src="js/jquery.fileupload.js"></script>
+      <!-- Bootstrap datepicker -->
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <!-- Bootstrap datepicker lang -->
+    <script src="js/bootstrap-datepicker.ru.min.js" charset="UTF-8"></script>
+    <!-- bootstrap.file-input.js -->
+    <script src="js/bootstrap.file-input.js" charset="UTF-8"></script>
+
+    <script src="js/js.js"></script>
+  </body>
+</html>

@@ -121,7 +121,8 @@
                           Name
                           <span> (letters and numbers only, no special characters)</span>
                         </p>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control"><span class="bg-warning"></span>
+                        <span class="help-block error">Please correct the error</span>
                       </div>
                     </div>
                   </div>
@@ -132,7 +133,20 @@
                           Package Name
                           <span> (example: com.company.newapp)</span>
                         </p>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control"><span class="bg-warning"></span>
+                        <span class="help-block error">Please correct the error</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group form-group-step">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <p class="control-label control-label-group">
+                          Version
+                          <span> (example: 1.0)</span>
+                        </p>
+                        <input type="text" class="form-control"><span class="bg-warning"></span>
+                        <span class="help-block error">Please correct the error</span>
                       </div>
                     </div>
                   </div>
@@ -281,6 +295,10 @@
             <div class="row">
               <div class="col-md-8">
                 <input type="file" title="Upload" class="btn-primary">
+                <div class="input-file--error alert alert-warning">
+                  <span class="bg-warning"></span>
+                  <p>Oops! Something happened and you need to start over</p>
+                </div>
 
                 <!-- previous link -->
                 <a href="" class="app-button-prev"><img src="img/icon-arrow-left.png" alt="" class=""></a>
