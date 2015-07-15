@@ -1790,6 +1790,8 @@ margin-bottom: 30px;
 }
 .template-main__img:hover .template-hover  {
 	background-image: url(../img/template-img--hover.png);
+	transform: rotate(180deg);
+	
 }
 .template-main__img:hover .template-type-hover  {
 	background-image: url(../img/icon-apk.png);
@@ -2025,11 +2027,14 @@ margin-bottom: 30px;
 	margin-left: 6px;
 }
 .bg-warning {
-	background-image: url(../img/icon-warning.png);
+	background-image: url(../img/icon-warning-y.png);
 	background-repeat: no-repeat;
 	width: 23px;
 	height: 20px;
 	display: inline-block;
+	-webkit-background-size: 23px;
+	background-size: 23px;
+	background-color: transparent;
 }
 .step-finish {
 	display: none;
@@ -2195,9 +2200,6 @@ margin-bottom: 30px;
 .template-main__img .link-blue {
 	display: block;
 	text-align: center;
-}
-.template-type-hover {
-
 }
 .bg-attach-b,
 .bg-attach-w {
