@@ -1794,7 +1794,7 @@ margin-bottom: 30px;
 	
 }
 .template-main__img:hover .template-type-hover  {
-	background-image: url(../img/icon-apk.png);
+	background-image: url(../img/icon-apk-up.png);
 }
 
 .template-main__link a {
@@ -2269,12 +2269,12 @@ margin-bottom: 30px;
 }
 .btn-transparent:hover {
 	color: #bcc1c4;
-	opacity: 0.9;
+	background-color: #e9ebec;
 }
 .btn-transparent:active,
 .btn-transparent:focus {
 	color: #bcc1c4;
-	opacity: 0.8;
+	background-color: #e0e2e4;
 }
 .bg-delete {
 	background-image: url(../img/icon-delete-g.png);
