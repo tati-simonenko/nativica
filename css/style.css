@@ -1721,7 +1721,7 @@ background-color: #fff;
 margin-bottom: 30px;
 }
 
-.templates .col-md-4:nth-child(3n+1) {
+.templates .col-lg-4:nth-child(3n+1) {
 	clear: both;
 }
 
@@ -2127,6 +2127,11 @@ margin-bottom: 30px;
 }
 .template-type--item .template-main__text {
 	min-height: 75px;
+}
+@media (min-width: 1201px) {
+	.template-type--item:nth-child(2n+1) {
+		clear: both;
+	}
 }
 @media (min-width: 661px) and (max-width: 1200px) {
 	.template-type--item {
