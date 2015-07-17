@@ -2033,7 +2033,7 @@ margin-bottom: 30px;
 	height: 20px;
 	display: inline-block;
 	-webkit-background-size: 23px;
-	background-size: 23px;
+	background-size: 22px;
 	background-color: transparent;
 }
 .step-finish {
@@ -2197,9 +2197,11 @@ margin-bottom: 30px;
 	text-decoration: underline;
 	color: #56bbff;
 }
+.template-type--item .template-main__img { font-size: 0; }
 .template-main__img .link-blue {
 	display: block;
 	text-align: center;
+	font-size: 12px;
 }
 .bg-attach-b,
 .bg-attach-w {
